@@ -100,7 +100,7 @@ def analyse_product_function(product_input: ProductInput):
     # Extract the individual variables
     headline = arguments_dict['Headline']
     body = arguments_dict['body']
-    imageALT = arguments_dict['ImageALT']
+    imageALT = arguments_dict['imageALT']
 
     print(f"Headline: {headline}")
     print(f"body: {body}")
